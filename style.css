@@ -49,11 +49,17 @@ button {
 }
 
 /* Board wrapper */
-.board-wrapper {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+.game-board {
+    width: 90%;          /* fill most of screen */
+    max-width: 480px;    /* limit on large screens */
+    aspect-ratio: 4 / 3; /* keep 4x3 shape */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 12px;
+    margin: auto;
 }
+
 
 /* Square game board */
 .game-board {
@@ -141,3 +147,4 @@ button {
         grid-template-rows: repeat(4, 1fr);
     }
 }
+
