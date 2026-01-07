@@ -6,12 +6,12 @@ const scoreDisplay = document.getElementById("score");
 const gameBoard = document.getElementById("gameBoard");
 
 const cardsData = [
-    {name: "BOKA1", img: "images/p1.jpeg"},
-    {name: "BOKA2", img: "images/p2.jpeg"},
-    {name: "BOKA3", img: "images/p3.jpeg"},
-    {name: "BOKA4", img: "images/p4.jpeg"},
-    {name: "BOKA5", img: "images/p5.jpeg"},
-    {name: "BOKA6", img: "images/p6.jpeg"}
+    {name: "BOKA1", img: "p1.jpeg"},
+    {name: "BOKA2", img: "p2.jpeg"},
+    {name: "BOKA3", img: "p3.jpeg"},
+    {name: "BOKA4", img: "p4.jpeg"},
+    {name: "BOKA5", img: "p5.jpeg"},
+    {name: "BOKA6", img: "p6.jpeg"}
   
 ];
 
@@ -115,7 +115,7 @@ function checkMatch() {
 
             // Add goat image
             const goatImg = document.createElement("img");
-            goatImg.src = "images/goat.jpeg"; // your goat image path
+            goatImg.src = "goat.jpeg"; // your goat image path
             goatImg.style.width = "250px";    
             goatImg.style.height = "auto";
             goatImg.style.borderRadius = "12px";
@@ -149,5 +149,6 @@ function checkMatch() {
         }, 600);
     }
 }
+
 
 
