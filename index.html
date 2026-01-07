@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BOKA GAME</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>BOKA GAME 🎮</h1>
+
+    <!-- Start Screen -->
+    <div id="startScreen" class="start-screen">
+        <p>
+            Welcome to BOKA GAME! <br>
+            Flip cards and match all pairs to win BOKA!<br>
+            You can win BOKA if you complete all matches.
+        </p>
+        <button id="startBtn">Start Game</button>
+    </div>
+
+    <!-- Game Info -->
+    <div id="gameInfo" class="game-info hidden">
+        Score: <span id="score">0</span>
+    </div>
+
+    <!-- Board -->
+    <div id="boardWrapper" class="board-wrapper hidden">
+        <div class="game-board" id="gameBoard"></div>
+    </div>
+
+    <!-- Win Message -->
+    <div id="winMessage" class="win-message hidden">
+        🎉 You have won <strong>40 kg BIR BOKA</strong> 🎉
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
