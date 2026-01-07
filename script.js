@@ -6,12 +6,12 @@ const scoreDisplay = document.getElementById("score");
 const gameBoard = document.getElementById("gameBoard");
 
 const cardsData = [
-    {name: "BOKA1", img: "p1.jpeg"},
-    {name: "BOKA2", img: "p2.jpeg"},
-    {name: "BOKA3", img: "p3.jpeg"},
-    {name: "BOKA4", img: "p4.jpeg"},
-    {name: "BOKA5", img: "p5.jpeg"},
-    {name: "BOKA6", img: "p6.jpeg"}
+    {name: "BOKA", img: "p1.jpeg"},
+    {name: "BOKA", img: "p2.jpeg"},
+    {name: "BOKA", img: "p3.jpeg"},
+    {name: "BOKA", img: "p4.jpeg"},
+    {name: "BOKA", img: "p5.jpeg"},
+    {name: "BOKA", img: "p6.jpeg"}
   
 ];
 
@@ -149,6 +149,7 @@ function checkMatch() {
         }, 600);
     }
 }
+
 
 
 
